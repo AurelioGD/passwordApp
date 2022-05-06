@@ -1,14 +1,17 @@
 errorDatabase="Ha ocurrido un error con la base de datos."
+errorNotExistPassword = "Ha ocurrido un error, no existe la contraseña consultada."
+errorNotExistPasswordToModify = "Ha ocurrido un error, no existe la contraseña a modificar."
+errorNotExistPasswordToDelete = "Ha ocurrido un error, no existe la contraseña a borrar."
+errorOptionEnteredIncorrect = "Opcion ingresada es incorrecta, solo numeros del 1 al 6."
+
 errorToRegisterUser="Ha ocurrido un error al registrar el usuario."
 errorToCheckPassword = "Ha ocurrido un error al comprobar contraseña."
 errorToCheckUser = "Ha ocurrido un error al comprobar usuario."
-
-errorToAuthenticateUser = "Ha ocurrido un error al autenticar el usuario."
-
+errorToAuthenticateUser = "Ha ocurrido un error al autenticar (contraseña incorrecta)."
 errorToCreateAPassword = "Ha ocurrido un error al crear una contraseña."
 errorToGetAllPasswords = "Ha ocurrido un error al obtener todas las contraseñas."
 errorToGetPasswordById = "Ha ocurrido un error al obtener una contraseña por id."
-
 errorToModifyAPassword = "Ha ocurrido un error al modificar una contraseña."
-
 errorToDeletePasswordById = "Ha ocurrido un error al eliminar una contraseña."
+
+errorNotIsANumber = "Ha ocurrido un error, debe de ser un numero."

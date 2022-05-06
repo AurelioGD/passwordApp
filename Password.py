@@ -1,6 +1,6 @@
-from Connection import Connection
 from sqlStatements.passwordSqlStatements import createNewPasswordSql, getAllPasswordsSql, getPasswordByIdSql, modifyAPasswordSql, deletePasswordByIdSql
 from utils.errorMessages import errorToCreateAPassword, errorToGetAllPasswords, errorToGetPasswordById, errorToModifyAPassword, errorToDeletePasswordById
+from Connection import Connection
 
 class Password:
     def __init__(self):
@@ -37,7 +37,6 @@ class Password:
 
     def modifyAPassword(self, passwordData):
         try:
-            print(passwordData)
             self.cursor.execute(modifyAPasswordSql, passwordData)
             self.connection.commit()
             return { "success": True }

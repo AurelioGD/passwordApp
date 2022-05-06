@@ -6,5 +6,8 @@ def drawMenu():
     print("\t4- Modify a password")
     print("\t5- Delete a password")
     print("\t6- Exit")
-    choice = int(input("Enter an option: "))
-    return choice
+    choice = input("Enter an option: ")
+    if(choice.isnumeric()):
+        return int(choice)
+    else:
+        return choice

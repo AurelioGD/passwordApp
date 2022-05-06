@@ -1,4 +1,5 @@
 from getpass import getpass
+
 def drawRegister():
     print("Welcome, enter your information.")
     name = input("Name: ")
