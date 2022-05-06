@@ -1,5 +1,3 @@
-from cgitb import reset
-from urllib import response
 from utils.errorMessages import errorNotIsANumber, errorDatabase, errorToAuthenticateUser, errorNotExistPassword, errorNotExistPasswordToModify, errorNotExistPasswordToDelete,errorOptionEnteredIncorrect
 from utils.isNotNumber import isNotNumber
 from utils.cleanTerminal import cleanTerminal

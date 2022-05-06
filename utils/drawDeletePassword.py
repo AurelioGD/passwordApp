@@ -1,5 +1,4 @@
 from getpass import getpass
-from pickle import TRUE
 from User import User
 from Password import Password
 user = User()
