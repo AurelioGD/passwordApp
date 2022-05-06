@@ -5,7 +5,7 @@ from User import User
 
 user = User()
 
-def AuthenticateUser():
+def Authenticate():
     existingUser = user.checkUser()
     if len(existingUser) == 0:
         dataNewUser = drawRegister()

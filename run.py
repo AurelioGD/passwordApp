@@ -2,7 +2,7 @@ from utils.drawMessage import drawMessage
 from utils.errorMessages import errorToAuthenticateUser
 from utils.cleanTerminal import cleanTerminal
 from Connection import Connection
-from AuthenticateUser import AuthenticateUser
+from Authenticate import Authenticate
 from optionMenu import optionMenu
 
 db = Connection()
@@ -13,7 +13,7 @@ def run():
     cleanTerminal()
 
     while True:
-        response = AuthenticateUser()
+        response = Authenticate()
         cleanTerminal()
         isAuthenticated = response.get("success")
         if(isAuthenticated):
